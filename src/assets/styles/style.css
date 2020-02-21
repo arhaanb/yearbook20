@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'europa';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+.delete {
+    background-color: rgb(255, 77, 77);
+    color: white;
+    border-style: none;
+}
+
+.delete:hover {
+    color: white;
+    background-color: rgb(201, 48, 48);
+}
+
+.buttons {
+    margin-top: 1em;
+}
+
+#heading {
+    margin-bottom: 0.5em;
+}
+
+/* Navbar.vue */
+
+nav {
+    margin: 1.5em;
+}
+
+nav h1, nav h5 {
+    font-family: 'europa';
+    font-weight: 700;
+    text-align: center;
+}
+
+nav h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
+}
+
+/* Dashboard.vue */
+
+.cardhi {
+    background-color: #6699ee;
+    margin: 1em;
+    text-align: center;
+    -webkit-box-shadow: 33px 26px 300px -56px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 33px 26px 300px -56px rgba(0, 0, 0, 0.75);
+    box-shadow: 33px 26px 300px -56px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.card-img {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    width: 100%;
+}
+
+#grid {
+    display: grid;
+    grid-auto-rows: minmax(125px, auto);
+    grid-gap: 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+    #grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2px;
+    }
+}
+
+.edit-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.fixed-plus {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: #6699ee;
+    padding: 0.8em;
+}
+
+.fixed-plus a {
+    color: #fff;
+}
+
+.fixed-plus a:hover {
+    color: #fff;
+}
+
+/* Footer.vue */
+
+footer {
+    text-align: center;
+    background-color: #b1ccfa6b;
+    margin-top: 2em;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+footer h5 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.fa-heart {
+    color: rgb(231, 66, 66);
+}
